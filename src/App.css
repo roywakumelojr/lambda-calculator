@@ -1,15 +1,18 @@
 .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #c00025;
     width: 100%;
-    max-width: 550px;
+    max-width: 460px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
 }
 .display {
     margin-top: 25px;
-    height: 100px;
-    width: 450px;
+    height: 90px;
+    width: 360px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -19,4 +22,87 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+    margin-bottom: 4%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: left;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.display-container {
+    width: 90%;
+    margin-left: 5%;
+    align-items: center;
+}
+
+
+.operation-container {
+    display: flex;
+}
+
+.left-buttons {
+    width: 65%;
+    padding-left: 2%;
+}
+
+.right-buttons {
+    display: flex;
+    justify-content: center;
+    width: 4%;
+    color: #237293
+}
+
+.specials {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 10%;
+}
+.button-special {
+    background-color: #225d9e
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 90%;
+    margin-left: 10%;
+    color: #184379;
+}
+
+.operators {
+    width: 20%;
+    margin-right: 0;
+}
+
+.button-operator {
+    background-color:#237293;
+}
+
+button {
+    color: white;
+    border: none;
+    box-shadow: 0px 4px 4px black;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 5px 6px;
+    background-color: #184379;
+    font-size: 30px;  
+}
+
+button:nth-child(10) {
+    width: 160px;
+    border-radius: 50px 50px ;
+}
